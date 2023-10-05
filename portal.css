@@ -1,0 +1,46 @@
+body{
+    background-color: beige;
+}
+a {
+    background-color: lightblue;
+    color: rgb(71, 69, 69);
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px;
+    text-align; center;
+}
+a:hover {
+    background-color: darkgray;
+    color: white
+}
+nav {
+    display: flex;
+    justify-content: center;
+}
+h1 {
+    font-size: 1.53em;
+    text-align: center;
+}
+img {
+    width: 40%;
+    display: block;
+    margin: 0 auto;
+}
+p {
+    /*text-align: center: */
+    width: 40%;
+    margin: 10px auto;
+}
+#primary {
+    background-color: aqua;
+}
+.background {
+    background-color: red;
+}
+footer p {
+    width: 100%;
+    text-align: center;
+    background-color: lightblue;
+    color: rgb(71, 69, 69);
+
+}
