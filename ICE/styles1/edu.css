@@ -1,0 +1,26 @@
+body {
+    background-color: pink;
+}
+header {
+    text-align: center;
+    color: white
+}
+main {
+    text-align: center;
+    color: black;
+}
+section {
+    color: white;
+    width: 100px;
+}
+p {
+    text-align: center;
+}
+img {
+    width: 40%;
+}
+footer {
+    text-align: center;
+    margin: 0 auto;
+    color: black;
+}
