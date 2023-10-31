@@ -75,7 +75,6 @@ nav a:hover {
 }
 footer {
    background-color: #CAF0F8;
-   color: black;
    padding: 25px 50px;
    margin-top: 200px;
    display: flex;
@@ -154,7 +153,7 @@ h4 {
     opacity: .6;
     transform: scale(1.1);
 }
-#home-grid {
+.home-grid {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
 }
@@ -178,6 +177,7 @@ h4 {
     grid-row: 4/9;
 }
 .mountains {
+   width: 100%;
     grid-column: 2/7;
     grid-row: 5/8;
     box-shadow: 5px 5px 10px #6f7364;
