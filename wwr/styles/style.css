@@ -100,9 +100,9 @@ footer a {
     padding-top: 15px;
  }
 .home-title {
-    color: black;
+    color: white;
     font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
-    font-size: 2em;
+    font-size: 5em;
     margin-top: 10px;
 }
 h2{
@@ -198,10 +198,6 @@ h4 {
     grid-row: 1/2;
     width: 100%;
     margin: 100px 0;
-}
-.rivers-title {
-    color: white;
-    font-size: 5em;
 }
 .mainforkofsalmonriver-card, .desolationandgraycanyon-card, .grandcanyon-card {
     margin: auto;
