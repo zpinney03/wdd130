@@ -206,7 +206,7 @@ h4 {
     line-height: 1.5em;
     padding: 35px;
 }
-.mainforkofsalmonriver-card:hover, .desolationandgraycanyon-card:hover, .grandcanyon-card:hover {
+.rivers1-img:hover, .rivers2-img:hover, .rivers3-img:hover {
     transform: scale(1.5);
 }
 .rivers1-img, .rivers2-img, .rivers3-img {
