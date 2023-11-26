@@ -42,6 +42,7 @@ nav a:hover {
     color: black;
 }
 footer {
+   color: white;
    background-color: #0C7489;
    padding: 25px 50px;
    margin-top: 200px;
@@ -50,8 +51,7 @@ footer {
    align-items: center;
 }
 footer a {
-    background-color: #51E5FF;
-    color: black;
+    color: white;
     text-decoration: none;
  }
  footer a:hover {
@@ -72,13 +72,14 @@ footer a {
     grid-template-columns: repeat(3, 1fr);
  }
  .menu-card {
+    align-items: right;
     grid-column: 2/4;
     grid-row: 2/3;
     margin: auto;
     text-align: left;
     background-color: #51E5FF;
     line-height: 1.5em;
-    padding: 35px;
+    padding: 50px;
  }
  .review-card {
     grid-column: 1/3;
@@ -96,17 +97,25 @@ footer a {
     text-align: left;
     background-color: #51E5FF;
     line-height: 1.5em;
-    padding: 35px;
+    padding: 50px;
  }
  .onlineorder-card {
     grid-column: 1/3;
     grid-row: 5/6;
-       margin: auto;
+    margin: auto;
     text-align: left;
     background-color: #51E5FF;
     line-height: 1.5em;
     padding: 35px;
  } 
+ .top1-img:hover, .top2-img:hover, .top3-img:hover {
+   transform: scale(1.1);
+ }
+ .top1-img, .top2-img, .top3-img {
+   border: 10px;
+   transition: transform .5s;
+   box-shadow: 5px 5px 10px #6f7364;
+ }
  .top1-img {
     grid-column: 1/2;
     grid-row: 1/2;
@@ -135,6 +144,7 @@ footer a {
     grid-column: 1/2;
     grid-row: 2/3;
     width: 100%;
+    ;
     margin: 50px 0;
     padding: 35px;
  }
