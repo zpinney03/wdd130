@@ -64,21 +64,26 @@ footer a {
  footer p a:hover{
     text-decoration: underline;
  }
+ .sitelink {
+   padding: 35px;
+ }
+ .aboutuslink {
+   padding: 35px;
+ }
  footer .social img {
-    padding-top: 15px;
+    padding-top: 20px;
  }
  .home-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
  }
  .menu-card {
-    align-items: right;
     grid-column: 2/4;
     grid-row: 2/3;
     margin: auto;
     text-align: left;
     background-color: #51E5FF;
-    line-height: 1.5em;
+    line-height: 2em;
     padding: 50px;
  }
  .review-card {
@@ -87,7 +92,7 @@ footer a {
     margin: auto;
     text-align: left;
     background-color: #51E5FF;
-    line-height: 1.5em;
+    line-height: 2em;
     padding: 35px;
  }
  .team-card {
@@ -96,7 +101,7 @@ footer a {
     margin: auto;
     text-align: left;
     background-color: #51E5FF;
-    line-height: 1.5em;
+    line-height: 2em;
     padding: 50px;
  }
  .onlineorder-card {
@@ -105,7 +110,7 @@ footer a {
     margin: auto;
     text-align: left;
     background-color: #51E5FF;
-    line-height: 1.5em;
+    line-height: 2em;
     padding: 35px;
  } 
  .top1-img:hover, .top2-img:hover, .top3-img:hover {
@@ -169,3 +174,122 @@ footer a {
     margin: 50px 0;
     padding: 35px;
  }
+ /* css for menu page */
+ #hero {
+   display: grid;
+   grid-template-columns: 1fr 3fr 1fr;
+   margin-top: -100px;
+}
+#hero-box {
+   grid-column: 1/4;
+   grid-row: 1/3;
+   z-index: -1;
+   width: 100%;
+}
+#hero-msg {
+   grid-column: 2/3;
+   grid-row: 1/2;
+   margin-top: 100px;
+}
+#menu-hero-img {
+   width: 100%;
+}
+.menu-title {
+   color: #51E5FF;
+   font-family: 'Amiri';
+   font-size: 10em;
+   background-color: grey;
+   border-radius: 200px;
+   text-align: center;
+}
+.menu-grid {
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+}
+.maple {
+   grid-column: 1/2;
+   grid-row: 2/3;
+   width: 100%;
+   margin: 50px 0;
+   padding: 30px;
+   background-color: lightgray;
+   
+}
+.chocolate {
+   grid-column: 2/3;
+   grid-row: 2/3;
+   width: 100%;
+   margin: 50px 0;
+   padding: 30px;
+   background-color: lightgray;
+}
+.strawberry {
+   grid-column: 3/4;
+   grid-row: 2/3;
+   width: 100%;
+   margin: 50px 0;
+   padding: 30px;
+   background-color: lightgray;
+}
+.glaze {
+   grid-column: 4/5;
+   grid-row: 2/3;
+   width: 100%;
+   margin: 50px 0;
+   padding: 30px;
+   background-color: lightgray;
+}
+.bacon {
+   grid-column: 4/5;
+   grid-row: 3/4;
+   width: 100%;
+   padding: 35px;
+}
+.rewards {
+   grid-column: 4/5;
+   grid-row: 4/5;
+   width: 100%;
+   padding: 35px;
+}
+.onlineorder {
+   grid-column: 4/5;
+   grid-row: 5/6;
+   width: 100%;
+   padding: 35px;
+}
+.classicdonuts-card {
+   grid-column: 1/4;
+   grid-row: 1/2;
+   padding: 35px;
+   background-color: #51E5FF;
+   text-align: left;
+   line-height: 2em;
+   margin: auto;
+}
+.monthlyspecials-card {
+   grid-column: 1/4;
+   grid-row: 4/5;
+   padding: 35px;
+   background-color: #51E5FF;
+   text-align: left;
+   line-height: 2em;
+   margin: auto;
+}
+.rewardsprogram-card {
+   grid-column: 1/4;
+   grid-row: 3/4;
+   padding: 35px;
+   background-color: #51E5FF;
+   text-align: left;
+   line-height: 2em;
+   margin: auto;
+}
+.onlineordermenu-card {
+   grid-column: 1/4;
+   grid-row: 5/6;
+   padding: 35px;
+   background-color: #51E5FF;
+   text-align: left;
+   line-height: 2em;
+   margin: auto;
+}
