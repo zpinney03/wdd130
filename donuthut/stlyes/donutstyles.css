@@ -292,7 +292,8 @@ footer a {
    background-color: #51E5FF;
    text-align: left;
    line-height: 2em;
-   margin: auto;
+   margin: 35px;
+   margin-left: 35px;
 }
 /* css for the about us page */
 #heroaboutus {
