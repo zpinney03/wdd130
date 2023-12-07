@@ -299,6 +299,7 @@ footer a {
    display: grid;
    grid-template-columns: 1fr 3fr 1fr;
    margin-top: -100px;
+   padding: 15px;
 }
 #hero-box {
    grid-column: 1/4;
@@ -338,7 +339,7 @@ footer a {
    grid-row: 2/3;
    width: 100%;
    margin: 50px 0;
-   padding: 30px;
+   
 }
 .aboutus1 {
    grid-column: 1/2;
@@ -372,14 +373,15 @@ footer a {
    text-align: left;
    line-height: 2em;
    margin: auto;
-   background-color: lightgray;
+   
 }
 .communityinvolvement-card {
    grid-column: 2/4;
    grid-row: 2/3;
-   padding: 35px;
+   margin: 35px;
    background-color: #51E5FF;
    text-align: left;
    line-height: 2em;
-   margin: auto;
+   margin-left: 30px;
+   padding: 35px;
 }
