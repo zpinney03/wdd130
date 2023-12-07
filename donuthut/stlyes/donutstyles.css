@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Amiri&family=Roboto+Serif:opsz,wght@8..144,300&family=Young+Serif&display=swap');
 /* header and footer css */
-div {
-    max-width: 1600px;
+#content {
+    max-width: 1400px;
     margin: 0 auto;
 }
 header {
@@ -205,6 +205,7 @@ footer a {
 .menu-grid {
    display: grid;
    grid-template-columns: repeat(4, 1fr);
+   justify-items: center;
 }
 .maple {
    grid-column: 1/2;
